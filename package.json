@@ -1,15 +1,19 @@
 {
-  "name": "docker_web_app",
+  "name": "cache-test",
   "version": "1.0.0",
-  "description": "Node.js on Docker",
-  "author": "Jeff",
+  "description": "",
   "main": "server.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "aws-sdk": "^2.291.0",
+    "aws": "0.0.3-2",
     "express": "^4.16.3",
-    "sharp": "^0.20.5"
+    "redis": "^2.8.0",
+    "redis-cluster": "0.0.8",
+    "redis-clustr": "^1.6.0"
   }
 }
