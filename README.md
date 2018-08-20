@@ -1,5 +1,5 @@
 # aws-cache
-Simple framework utilizing Redis for basic AWS Elasticache.
+Simple framework utilizing Redis for basic AWS Elasticache with a Node.js Docker container
 
 ## Running
 Make sure to have [Docker](https://www.docker.com/) installed
