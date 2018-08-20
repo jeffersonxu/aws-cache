@@ -1,19 +1,15 @@
 {
   "name": "cache-test",
   "version": "1.0.0",
-  "description": "",
+  "description": "Framework for AWS ELasticache with Node.js",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node test.js"
   },
-  "author": "",
+  "author": "Jefferson Xu",
   "license": "ISC",
   "dependencies": {
-    "aws": "0.0.3-2",
     "express": "^4.16.3",
-    "redis": "^2.8.0",
-    "redis-cluster": "0.0.8",
-    "redis-clustr": "^1.6.0"
+    "redis": "^2.8.0"
   }
 }
