@@ -9,6 +9,7 @@
   "author": "Jefferson Xu",
   "license": "ISC",
   "dependencies": {
+    "diff": "^4.0.1",
     "express": "^4.16.3",
     "redis": "^2.8.0"
   }
